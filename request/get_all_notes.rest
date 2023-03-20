@@ -1,1 +1,21 @@
 GET http://localhost:3001/api/notes/1
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "lol",
+    "important":true
+}
+###
+DELETE http://localhost:3001/api/notes/6417d58cfe1f68f5679f41d6
+
+###
+PUT http://localhost:3001/api/notes/6417d578fe1f68f5679f41d4
+Content-Type: application/json
+
+{
+    "content": "Browser can execute only JavaScript updated",
+    "important":true
+}
